@@ -2,8 +2,7 @@
 This project is for the website creation of the virtual band "The Bajs" for the fanbase "ForsenBajs". 
 The website showcase photos of the band, merch store, and upcoming tours
 
-## Desgin Process
-
+## Design Process
 Week 2 wireframe
 https://xd.adobe.com/view/2dd0f45d-5e9e-444e-8e14-83c1ed6679e4-7883/
 
