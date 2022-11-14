@@ -1,0 +1,48 @@
+body{
+    background-color: antiquewhite;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow:hidden
+}
+
+h1, h2, h3, a, p{
+    color:rgb(255, 255, 255);
+    font-family: "Dokdo", cursive;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    display:flex;
+    width: 100%;
+}
+
+nav > .top-head {
+    padding: 0.1rem 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    justify-content: flex-start;
+    font-size: 64px;
+}
+
+#logo, #link{
+    flex-basis: 35%;
+}
+
+#social{
+    flex-grow: 1;
+}
