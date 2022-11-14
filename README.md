@@ -10,3 +10,14 @@ https://xd.adobe.com/view/2dd0f45d-5e9e-444e-8e14-83c1ed6679e4-7883/
 Features yet to implement:
 - Clicking on the logo brings to the top of the page
 - Clicking on the band 5 times will make them "perform"
+
+## Technologies used
+
+
+## Testing
+
+## Credits
+
+### Media
+
+### Acknowledgements 
