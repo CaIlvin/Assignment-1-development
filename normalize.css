@@ -49,3 +49,8 @@ nav > .top-head {
 #social{
     flex-grow: 1;
 }
+
+#BandPlay{
+    width: auto;
+    height: 50%;
+}
