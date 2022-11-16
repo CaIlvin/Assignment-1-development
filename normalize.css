@@ -17,6 +17,7 @@ a{
     text-decoration: none;
 }
 
+
 *{
     box-sizing: border-box;
 }
@@ -28,7 +29,7 @@ nav{
     background-color: #B3A088;
 }
 
-nav > .top-head {
+.top-head {
     padding: 0.1rem 2rem;
     display: flex;
     gap: 2rem;
@@ -51,6 +52,8 @@ nav > .top-head {
 }
 
 #BandPlay{
-    width: auto;
-    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
