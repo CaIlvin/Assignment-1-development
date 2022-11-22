@@ -4,9 +4,10 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    overflow:hidden
 }
-
+div > .displayMusic, #musicCover {
+    display: block;
+}
 h1, h2, h3, a, p{
     color:rgb(255, 255, 255);
     font-family: "Dokdo", cursive;
@@ -17,6 +18,15 @@ a{
     text-decoration: none;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.sticky + nav {
+    padding-top: 30px;
+  }
 
 *{
     box-sizing: border-box;
@@ -25,14 +35,14 @@ a{
 nav{
     display:flex;
     width: 100%;
-    height: 15%;
+    height: 10%;
     background-color: #B3A088;
 }
 
 .top-head {
     padding: 0.1rem 2rem;
     display: flex;
-    gap: 2.5rem;
+    gap: 3rem;
     justify-content: center;
     align-items: center;
     font-size: 32px;
@@ -51,7 +61,7 @@ a:hover{
 }
 
 #logo, #link{
-    flex-basis: calc()
+    flex-basis: calc(100%/3)
 }
 
 #social{
@@ -62,18 +72,29 @@ a:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:30%;
+    width:72rem;
+    height:24rem
+}
+.displayMusic {
+    --bs-aspect-ratio: calc(9 / 16 * 100%);
+    position: relative;
+    width: 100%;
+}
+#musicCover{
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+    height: 360px;
+    transition: transform 0.4s;
+    object-fit: cover;
 }
 
-.paragraph{
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #3B3732;
-    height:80%;
-    width: 40%;
+#musicCover:hover {
+    transform: scale(1.1);
+}
+
+#section-head{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 48px;
     padding-left: 1rem;
-    margin-left: 2vw;
-    margin-top: 1vw;
-    margin-right: 2vw;
-    background-color: #7A7369
 }

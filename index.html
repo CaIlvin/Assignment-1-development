@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <script src="https://kit.fontawesome.com/377d809d75.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dokdo&family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel = "Stylesheet" href = "normalize.css" type = "text/css">
     <body>
         <nav>
@@ -25,11 +25,26 @@
                 </a>
             </div>
         </nav>
-        <grid>
-            <img src ='3x_8.gif' id="BandPlay">
-            <div class = 'paragraph'>
-                <p>Some text...</p>
+        <main>            
+            <img src ='staticBand.gif' id="BandPlay" onclick="this.src = 'playBand.gif'">
+            <p id="section-head">MUSIC</p>            
+            <div class="displayMusic">
+                <a href="https://www.youtube.com/embed/-GEHyAfV4OI"> <img src ="firstMusic.png" id="musicCover" ></a>
             </div>
-        </grid>               
+        </main>
+        <script>
+            window.onscroll = function() {myFunction()};
+            var nav = document.querySelector("nav");
+            var sticky = nav.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                    nav.classList.add("sticky")
+                }
+                else {
+                    nav.classList.remove("sticky")
+                }
+            }
+        </script>               
     </body> 
 </head>
