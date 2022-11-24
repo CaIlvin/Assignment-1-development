@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <script src="https://kit.fontawesome.com/377d809d75.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Dokdo&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dokdo&family=Sono:wght@200&display=swap" rel="stylesheet">
     <link rel = "Stylesheet" href = "normalize.css" type = "text/css">
     <body>
         <nav>
@@ -27,9 +27,16 @@
         </nav>
         <main>            
             <img src ='staticBand.gif' id="BandPlay" onclick="this.src = 'playBand.gif'">
-            <p id="section-head">MUSIC</p>            
-            <div class="displayMusic">
-                <a href="https://www.youtube.com/embed/-GEHyAfV4OI"> <img src ="firstMusic.png" id="musicCover" ></a>
+            <h1 id="section-head">MUSIC</h1>            
+            <div>
+                <iframe width ="100%" height="810px" src="https://www.youtube.com/embed/-GEHyAfV4OI" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+            </div>
+            <h1 id="section-head">PHOTOS</h1>
+            <div class = "photoAlbum">
+                <img src = 'Gallery1.jpg'>
+                <img src = 'Gallery2.jpg'>
+                <img src = 'Gallery3.jpg'>
             </div>
         </main>
         <script>

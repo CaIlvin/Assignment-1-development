@@ -5,9 +5,11 @@ body{
     flex-direction: column;
     height: 100vh;
 }
+
 div > .displayMusic, #musicCover {
     display: block;
 }
+
 h1, h2, h3, a, p{
     color:rgb(255, 255, 255);
     font-family: "Dokdo", cursive;
@@ -58,6 +60,7 @@ a:hover{
     justify-content: flex-start;
     font-size: 64px;
     white-space: nowrap;
+    
 }
 
 #logo, #link{
@@ -75,26 +78,21 @@ a:hover{
     width:72rem;
     height:24rem
 }
-.displayMusic {
-    --bs-aspect-ratio: calc(9 / 16 * 100%);
-    position: relative;
-    width: 100%;
-}
-#musicCover{
-    margin-left: auto;
-    margin-right: auto;
-    width: 640px;
-    height: 360px;
-    transition: transform 0.4s;
-    object-fit: cover;
+
+#section-head{  
+    font-family: 'Sono', sans-serif;
+    font-size: 64px;
+    padding: 2rem;
+    margin:0;
+    text-align: center;
 }
 
-#musicCover:hover {
-    transform: scale(1.1);
-}
-
-#section-head{
-    font-family: 'Permanent Marker', cursive;
-    font-size: 48px;
-    padding-left: 1rem;
+.photoAlbum{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    padding: 0px 2rem 2rem;
+    width: 48%;
+    height: 27%; 
 }
