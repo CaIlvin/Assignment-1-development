@@ -10,20 +10,22 @@ div > .displayMusic, #musicCover {
     display: block;
 }
 
-h1, h2, h3, a, p{
-    color:rgb(255, 255, 255);
+a{
+    color:whitesmoke;
     font-family: "Dokdo", cursive;
     font-weight: 400;
 }
 
-a{
-    text-decoration: none;
+a:hover{
+    color:#7A7369;
+    text-decoration: underline;
 }
 
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
+    opacity: 0.95;
   }
 
 .sticky + nav {
@@ -32,12 +34,14 @@ a{
 
 *{
     box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 400;
 }
 
 nav{
     display:flex;
     width: 100%;
-    height: 10%;
+    height: 8%;
     background-color: #B3A088;
 }
 
@@ -50,17 +54,11 @@ nav{
     font-size: 32px;
 }
 
-a:hover{
-    color:#7A7369;
-    text-decoration: underline;
-}
-
 #logo{
     text-decoration: none;
     justify-content: flex-start;
     font-size: 64px;
-    white-space: nowrap;
-    
+    white-space: nowrap;    
 }
 
 #logo, #link{
@@ -73,26 +71,107 @@ a:hover{
 
 #BandPlay{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width:72rem;
     height:24rem
 }
 
-#section-head{  
+#sectionHead{  
     font-family: 'Sono', sans-serif;
     font-size: 64px;
+    color:white;
     padding: 2rem;
     margin:0;
     text-align: center;
 }
 
-.photoAlbum{
-    flex-direction: row;
+.headBg{
+    background-color: black;
+    height: auto;
+}
+.photoAlbum {
+    display: flex;
+    flex-direction: row!important; 
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
-    padding: 0px 2rem 2rem;
+    gap: 2%;
+}
+.photoAlbum > img{
+    padding: 0px 0px 2% 2%;
     width: 48%;
     height: 27%; 
+}
+.tourHead {
+    padding: 1rem 10rem;
+    font-family: 'Sono', sans-serif;
+    font-size: 32px;    
+    background: black;
+}
+.tourRow {
+    display: flex;    
+    background: white;
+    height: 104px;
+    margin-bottom: 2rem;
+    gap: 4rem;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+#ticketButton {
+    display: flex;
+    font-family:inherit;   
+    font-size: 28px; 
+    background: #ffdf41;
+    color: whitesmoke;    
+    text-decoration: none;
+    width: 5em;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto 5rem;
+    align-items: center;
+    text-align: center;
+}
+
+#ticketButton:hover {
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.formWrap {
+    width: 100%;
+    max-width: 450px;
+    background:#ffdf41;
+    color: gray;
+    text-align: center;
+    margin:0 auto;
+    padding:10px;
+    border-radius: 5px;
+}
+
+input[type=text], input[type=submit] {
+    font: inherit;
+    font-size: 16px;
+    width: 100%;
+    padding: 6px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background:rgb(174, 0, 174);
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.footerWrap {
+    padding: 2rem;
+    background: black;
+    text-align: center;
+    color: white;
 }

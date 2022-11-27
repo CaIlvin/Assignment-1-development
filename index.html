@@ -6,7 +6,7 @@
     <body>
         <nav>
             <a class = "top-head" id ='logo' href="index.html">
-                THE BAJS
+            THE BAJS
             </a>
             <h2 class = 'top-head' id ='link'>
                 <a href ="band.html">BAND</a>
@@ -27,17 +27,49 @@
         </nav>
         <main>            
             <img src ='staticBand.gif' id="BandPlay" onclick="this.src = 'playBand.gif'">
-            <h1 id="section-head">MUSIC</h1>            
+            <h1 id="sectionHead">MUSIC</h1>            
             <div>
                 <iframe width ="100%" height="810px" src="https://www.youtube.com/embed/-GEHyAfV4OI" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+                title="Debut Music" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
             </div>
-            <h1 id="section-head">PHOTOS</h1>
+            <h1 id="sectionHead">PHOTOS</h1>
             <div class = "photoAlbum">
                 <img src = 'Gallery1.jpg'>
                 <img src = 'Gallery2.jpg'>
                 <img src = 'Gallery3.jpg'>
+                <img src = 'Gallery4.jpg'>
+                <img src = 'Gallery5.jpg'>
+                <img src = 'Gallery6.jpg'>
             </div>
+            <h1 id="sectionHead" class = 'headBg'>TOUR</h1>
+            <div class = 'tourHead'>
+                <div class = 'tourRow'>
+                    <div>23 MAR 2024</div>
+                    <div>Umeå,SW</div>
+                    <div>NOLIA AB</div>
+                </div>        
+                <div class = 'tourRow'>
+                    <div>17 JUN 2024</div>
+                    <div>PARIS,FR</div>
+                    <div>STADE DE FRANCE</div>
+                </div> 
+                <div class = 'tourRow'>
+                    <div>21 JUN 2024</div>
+                    <div>COPENHAGEN,DK</div>
+                    <div>PARKEN STADIUM</div>
+                </div>   
+                <a id = 'ticketButton' href = 'tour.html'>GET TICKETS</a>  
+                <form class = 'formWrap'>
+                    <h2><b>SUBSCRIBE</b></h2>
+                    <p>Get notification for The Bajs events, tours or merch.</p>
+                    <input type = 'text' placeholder = 'Name' name = 'name'required>
+                    <input type = 'text' placeholder = 'Email Address' name = 'mail'required>
+                    <input type = 'submit' value = 'SUBSCRIBE'>
+                </form>        
+            </div>
+            <div class = footerWrap>
+                <div>@2022 THE BAJS</div>
+             </div>            
         </main>
         <script>
             window.onscroll = function() {myFunction()};
