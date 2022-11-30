@@ -1,9 +1,8 @@
 body{
     background-color: antiquewhite;
     margin:0px;
-    display: flex;
-    flex-direction: column;
     height: 100vh;
+    width: 100%;
 }
 
 div > .displayMusic, #musicCover {
@@ -72,8 +71,8 @@ nav{
 #BandPlay{
     display: block;
     margin: 0 auto;
-    width:72rem;
-    height:24rem
+    width:100%;
+    height:calc(100%/3)
 }
 
 #sectionHead{  
@@ -86,7 +85,7 @@ nav{
 }
 
 .headBg{
-    background-color: black;
+    background: #BEE5FA;
     height: auto;
 }
 .photoAlbum {
@@ -103,25 +102,29 @@ nav{
 .tourHead {
     padding: 1rem 10rem;
     font-family: 'Sono', sans-serif;
-    font-size: 32px;    
-    background: black;
+    font-size: 1.5rem;    
+    background: #BEE5FA;
 }
 .tourRow {
     display: flex;    
+    justify-content: space-between;
     background: white;
-    height: 104px;
+    height: 10vh;
     margin-bottom: 2rem;
-    gap: 4rem;
     align-items: center;
     padding: 0 4rem;
+}
+
+#country {
+    align-self: center;
 }
 
 #ticketButton {
     display: flex;
     font-family:inherit;   
     font-size: 28px; 
-    background: #ffdf41;
-    color: whitesmoke;    
+    background: antiquewhite;
+    color: white;    
     text-decoration: none;
     width: 5em;
     height: auto;
@@ -139,8 +142,8 @@ nav{
 .formWrap {
     width: 100%;
     max-width: 450px;
-    background:#ffdf41;
-    color: gray;
+    background:antiquewhite;
+    color: white;
     text-align: center;
     margin:0 auto;
     padding:10px;
@@ -156,11 +159,10 @@ input[type=text], input[type=submit] {
     display: inline-block;
     border-radius: 5px;
     border: 1px solid black;
-    box-sizing: border-box;
 }
 
 input[type=submit] {
-    background:rgb(174, 0, 174);
+    background:#F8CAFA;
     color: white;
     border: none;
 }
@@ -171,7 +173,8 @@ input[type=submit]:hover {
 
 .footerWrap {
     padding: 2rem;
-    background: black;
+    background: #BEE5FA;
     text-align: center;
     color: white;
 }
+

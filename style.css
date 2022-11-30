@@ -1,0 +1,141 @@
+body{
+    background-color: antiquewhite;
+    margin:0px;
+    height: 100vh;
+    width: 100%;
+}
+
+a{
+    color:whitesmoke;
+    font-family: "Dokdo", cursive;
+    font-weight: 400;
+}
+
+a:hover{
+    color:#7A7369;
+    text-decoration: underline;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.95;
+    z-index: 999;
+  }
+
+.sticky + nav {
+    padding-top: 60px;
+  }
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+nav{
+    display:flex;
+    width: 100%;
+    height: 8%;
+    background-color: #B3A088;
+}
+
+.top-head {
+    padding: 0.1rem 2rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+#logo{
+    text-decoration: none;
+    justify-content: flex-start;
+    font-size: 64px;
+    white-space: nowrap;    
+}
+
+#logo, #link{
+    flex-basis: calc(100%/3)
+}
+
+#social{
+    flex-grow: 1;
+}
+
+.profile {
+    display:flex;
+    width: 100%;
+    height: 50%;
+}
+
+.image {
+    height:105%;
+    width:50%;
+    background:no-repeat;
+    background-position: center;
+}
+
+.text {
+    background: white;
+    display:flex;
+    width:50%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 2em;
+}
+
+.text h2 {
+    font-size: 8vw;
+    margin: 0;
+}
+
+.text p{
+    font-size: 1.1vw;
+    letter-spacing: 0.3em;
+    line-height: 1.5em;
+}
+
+#Sebastian {
+    font-family: 'Nova Mono', monospace;
+}
+
+#Moshi {
+    font-family: 'Solway', serif;
+}
+
+#Apollon {
+    font-family: 'Amatic SC', cursive;
+}
+
+#Lagoo {
+    font-family: 'Yeseva One', cursive;
+}
+
+#Mlemao {
+    font-family: 'Oswald', sans-serif;
+}
+
+.history {
+    margin: 0;
+    text-align: center;
+    font-size: 6vw;
+}
+
+#historyText{
+    text-align: center;
+    font-size: 1.5vw;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    padding: 0 3vw;
+}
+
+.footerWrap {
+    padding: 2rem;
+    text-align: center;
+    color: black;
+}
