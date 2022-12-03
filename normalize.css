@@ -72,10 +72,25 @@ nav{
     display: block;
     margin: 0 auto;
     width:100%;
-    height:calc(100%/3)
+    height:40vh
 }
 
-#sectionHead{  
+.iframeWrap {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.sectionHead{  
     font-family: 'Sono', sans-serif;
     font-size: 64px;
     color:white;
@@ -115,7 +130,7 @@ nav{
     padding: 0 4rem;
 }
 
-#country {
+.country {
     align-self: center;
 }
 

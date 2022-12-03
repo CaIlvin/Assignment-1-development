@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<head>
-    <script src="https://kit.fontawesome.com/377d809d75.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Dokdo&family=Sono:wght@200&display=swap" rel="stylesheet">
-    <link rel = "Stylesheet" href = "normalize.css" type = "text/css">
+<html lang = en>
+    <head>
+        <meta charset="UTF-8">
+        <title>The Bajs website</title>
+        <script src="https://kit.fontawesome.com/377d809d75.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Dokdo&family=Sono:wght@200&display=swap" rel="stylesheet">
+        <link rel = "Stylesheet" href = "normalize.css" type = "text/css">
+    </head>
     <body>
         <nav>
             <a class = "top-head" id ='logo' href="index.html">
@@ -26,44 +30,43 @@
             </div>
         </nav>
         <main>            
-            <img src ='staticBand.gif' id="BandPlay" onclick="this.src = 'playBand.gif'">
-            <h1 id="sectionHead">MUSIC</h1>            
-            <div>
-                <iframe width ="100%" height="810px" src="https://www.youtube.com/embed/-GEHyAfV4OI" 
-                title="Debut Music" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+            <img src ='staticBand.gif' id="BandPlay" onclick="this.src = 'playBand.gif'" alt = 'The Bajs performinh'>
+            <h1 class="sectionHead">MUSIC</h1>            
+            <div class = 'iframeWrap'>
+                <iframe src="https://www.youtube.com/embed/-GEHyAfV4OI" title="Debut Music" allowfullscreen></iframe>            
             </div>
-            <h1 id="sectionHead">PHOTOS</h1>
+            <h1 class="sectionHead">PHOTOS</h1>
             <div class = "photoAlbum">
-                <img src = 'Gallery1.jpg'>
-                <img src = 'Gallery2.jpg'>
-                <img src = 'Gallery3.jpg'>
-                <img src = 'Gallery4.jpg'>
-                <img src = 'Gallery5.jpg'>
-                <img src = 'Gallery6.jpg'>
+                <img src = 'Gallery1.jpg' alt = 'Band on tour'>
+                <img src = 'Gallery2.jpg' alt = 'Band on tour'>
+                <img src = 'Gallery3.jpg' alt = 'Band on tour'>
+                <img src = 'Gallery4.jpg' alt = 'Band on tour'>
+                <img src = 'Gallery5.jpg' alt = 'Band on tour'>
+                <img src = 'Gallery6.jpg' alt = 'Band on tour'>
             </div>
-            <h1 id="sectionHead" class = 'headBg'>TOUR</h1>
+            <h1 class="sectionHead headBg">TOUR</h1>
             <div class = 'tourHead'>
                 <div class = 'tourRow'>
                     <div>23 MAR 2023</div>
-                    <div id = 'country'>Umeå,SW</div>
+                    <div class = 'country'>Umeå,SW</div>
                     <div>NOLIA AB</div>
                 </div>        
                 <div class = 'tourRow'>
                     <div>17 JUN 2023</div>
-                    <div id = 'country'>PARIS,FR</div>
+                    <div class = 'country'>PARIS,FR</div>
                     <div>STADE DE FRANCE</div>
                 </div> 
                 <div class = 'tourRow'>
                     <div>21 JUN 2023</div>
-                    <div id = 'country'>COPENHAGEN,DK</div>
+                    <div class = 'country'>COPENHAGEN,DK</div>
                     <div>PARKEN STADIUM</div>
                 </div>   
                 <a id = 'ticketButton' href = 'tour.html'>GET TICKETS</a>  
                 <form class = 'formWrap'>
                     <h2><b>SUBSCRIBE</b></h2>
                     <p>Get notification for The Bajs events, tours or merch.</p>
-                    <input type = 'text' placeholder = 'Name' name = 'name'required>
-                    <input type = 'text' placeholder = 'Email Address' name = 'mail'required>
+                    <input type = 'text' placeholder = 'Name' name = 'name' required>
+                    <input type = 'text' placeholder = 'Email Address' name = 'mail' required>
                     <input type = 'submit' value = 'SUBSCRIBE'>
                 </form>        
             </div>
@@ -73,4 +76,3 @@
         </main>
         <script src = 'script.js'></script>               
     </body> 
-</head>
