@@ -72,7 +72,7 @@ nav{
 }
 
 .image {
-    height:105%;
+    height:100%;
     width:50%;
     background:no-repeat;
     background-position: center;
@@ -98,6 +98,7 @@ nav{
     font-size: 1.1vw;
     letter-spacing: 0.3em;
     line-height: 1.5em;
+    padding:1em;
 }
 
 #Sebastian {
@@ -146,13 +147,10 @@ nav{
     background-color: antiquewhite;
     grid-gap: 2vw;
     padding: 2vw;
-    text-align: center;
-    width: 100%;
 }
 
 .merchDisplay div {
     text-align: center;
-    background:whitesmoke;
     width:30.7vw;
     height:30.7vw;
 }
@@ -191,3 +189,20 @@ img {
     display: inline;
 }
 
+@media screen and (max-width:980px) {
+    .profile {
+        height:25%;
+    }
+
+    .text p{
+        font-size: 16px;
+    }
+
+    .merchDisplay {
+        grid-template-columns: auto auto;
+    }
+
+    .merchDisplay div {
+        margin: 0 auto;
+    }
+}

@@ -5,25 +5,53 @@ The website showcase photos of the band, merch store, and upcoming tours
 
 ## Design Process
 
-Wireframe
-https://xd.adobe.com/view/2dd0f45d-5e9e-444e-8e14-83c1ed6679e4-7883/
+The design behind the website is simplicity with pastel colours as the base palette of the website. The website is built in mind for the fans of "The Bajs". The aim of the site is to have a platform where the fans can get to know more about the band and support them. This website is best in achieving it as we are in a digitalise age and the fastest way to reach out to anybody is through the net.
 
 ## Features
 
-### Existing features:
+### Existing Features
 
 - Feature 1 - Clicking on the band once will have them start playing
+- Feature 2 - In video player of the band's debut music
 
 ### Features yet to implement:
 
+- Functioning shop page
+- Functioning tour page
+
 ## Technologies used
+
+- [Adobe XD](https://www.adobe.com/sg/products/xd.html)
+  - This project uses XD for wireframing of the website and mobile counterpart.
+- [Adobe Express](https://express.adobe.com/sp/)
+  - This project uses Adobe Express for desiging of merch products
+- [Adobe Illustrator](https://www.adobe.com/sg/products/illustrator.html)
+  - This project uses Adobe Illustrator for creation of the band's photos
+- [Canva](https://www.canva.com)
+  - This project uses Canva for desiging of merch products
 
 ## Testing
 
+1. Shopping:
+
+   1. Go to "Shop" page
+   2. Click on a product and a pop-up window appears
+   3. Pop-up window shows a more detailed look of the product. Also has item size selection if there is for said products
+   4. Click on "Add to cart" and cart icon at top right will have number 1 beside it
+
+2. Purchasing tickets:
+
+   1. Go to "Tour" page
+   2. Click on "ticket" button beside the tour date they want
+   3. Link to external site for the booking of tickets
+
 ## Credits
+
+### Content
 
 ### Media
 
+The photos used in creating the "gallery" section in index page were obtained from:
 https://www.bloomberg.com/graphics/pop-star-ranking/img/pop-star-ranking-2022-05-facebook.jpg
 https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uY2VydCUyMGNyb3dkfGVufDB8fDB8fA%3D%3D&w=1000&q=80
 https://7tv.app/emotes?page=1
@@ -32,3 +60,5 @@ https://media.istockphoto.com/id/1129400815/photo/rock-and-roll-band-performing-
 https://wp.dailybruin.com/images/2022/09/web.ae_.weekndreview.MC_.jpg
 
 ### Acknowledgements
+
+- I received inspiration for this project from Imagine Dragons, One Direction and Thirty Seconds To Mars

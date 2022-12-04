@@ -142,12 +142,22 @@ iframe {
     text-align:center;
 }
 
+@media screen and (max-width: 980px){
+    .tourHead {
+        font-size: 18px;
+    }
+
+    .tourRow {
+        height: 8vh;
+    }
+}
+
 #ticketButton {
     display: flex;
     font-family:inherit;   
     font-size: 28px; 
     background: antiquewhite;
-    color: white;    
+    color: whitesmoke;    
     text-decoration: none;
     width: 5em;
     height: auto;
@@ -166,7 +176,7 @@ iframe {
     width: 100%;
     max-width: 450px;
     background:antiquewhite;
-    color: white;
+    color: whitesmoke;
     text-align: center;
     margin:0 auto;
     padding:10px;
