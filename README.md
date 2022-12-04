@@ -29,6 +29,12 @@ The design behind the website is simplicity with pastel colours as the base pale
   - This project uses Adobe Illustrator for creation of the band's photos
 - [Canva](https://www.canva.com)
   - This project uses Canva for desiging of merch products
+- [HTML](https://html.com)
+  - This project uses HTML for layout of the site content
+- [CSS](https://www.w3.org/TR/CSS/#css)
+  - This project uses CSS for decoratino of the site
+- [JavaScript](https://www.javascript.com)
+  - This project uses JS for automation of some features on the site
 
 ## Testing
 
