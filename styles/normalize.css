@@ -14,36 +14,36 @@ a{
     font-family: "Dokdo", cursive;
     font-weight: 400;
 }
-
+/* Change nav bar icon colours on hover */
 a:hover{
     color:#7A7369;
     text-decoration: underline;
 }
-
+/* Enable the nav stick to the top of the page when user scroll down */
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
     opacity: 0.95;
   }
-
+/* Buffering for the nav to prevent jitter */
 .sticky + nav {
     padding-top: 30px;
   }
-
+/* Let width be padding + content */
 *{
     box-sizing: border-box;
     text-decoration: none;
     font-weight: 400;
 }
-
+/* Nav bar background */
 nav{
     display:flex;
     width: 100%;
     height: 8%;
     background-color: #B3A088;
 }
-
+/* Adjusting of the 3 nav section */
 .top-head {
     padding: 0.1rem 2rem;
     display: flex;
@@ -59,11 +59,11 @@ nav{
     font-size: 64px;
     white-space: nowrap;    
 }
-
+/*  Equal content space for both*/
 #logo, #link{
     flex-basis: calc(100%/3)
 }
-
+/* Have icons fill up the rest of the contetn space */
 #social{
     flex-grow: 1;
 }
@@ -90,7 +90,7 @@ iframe {
     top: 0;
     width: 100%;
 }
-
+/* Give style to starting title of each section */
 .sectionHead{  
     font-family: 'Sono', sans-serif;
     font-size: 64px;
@@ -104,12 +104,14 @@ iframe {
     background: #BEE5FA;
     height: auto;
 }
+/* Styling of the photo gallery */
 .photoAlbum {
     display: flex;
     flex-direction: row!important; 
     flex-wrap: wrap;
     gap: 2%;
 }
+
 .photoAlbum > img{
     padding: 0px 0px 2% 2%;
     width: 48%;
@@ -125,13 +127,12 @@ iframe {
 
 .tourRow {
     display: flex;    
-    justify-content: space-between;
     background: white;
     height: 10vh;
     margin-bottom: 2rem;
     align-items: center;
 }
-
+/* Let each section content expand equally */
 .country, .venue, .date, .ticket{
     flex-basis: calc(100%/3);
     padding: 1rem;
@@ -141,7 +142,7 @@ iframe {
 .ticket {
     text-align:center;
 }
-
+/* For larges phone screen and smaller */
 @media screen and (max-width: 980px){
     .tourHead {
         font-size: 18px;
@@ -182,7 +183,7 @@ iframe {
     padding:10px;
     border-radius: 5px;
 }
-
+/* Styling of input text box */
 input[type=text], input[type=submit] {
     font: inherit;
     font-size: 16px;
