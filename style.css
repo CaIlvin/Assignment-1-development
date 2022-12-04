@@ -161,6 +161,7 @@ nav{
     transition: 0.5s;
     transform: scale(1.05);
 }
+
 #buttonTop {
     display: block;
     margin: 0 auto;
@@ -172,8 +173,21 @@ nav{
     font-size: 1.5vw;
 }
 
-.merch1 > img {
+img {
     top:20px;
     width: 18vw;
     height: 24vw;
 }
+
+.merch3:hover .shirtFront {
+    display: none;
+}
+
+.shirtBack {
+    display: none;
+}
+
+.merch3:hover .shirtBack {
+    display: inline;
+}
+
